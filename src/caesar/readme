@@ -1,0 +1,10 @@
+Readme
+
+Julius Caesar is credited with using the first 'cipher'
+
+Shift cipher:
+	Shifts all characters forward by one
+	key = 1, 'hello world' becomes 'ifmmp xpsme'
+	Reverse process to decipher
+	
+	
