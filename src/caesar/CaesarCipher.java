@@ -15,20 +15,7 @@ public class CaesarCipher {
 		
 		String chocolateText = "";
 		
-		/**
-		System.out.println("Alpha length: " + alpha.length());
-		System.out.println("Alpha first char: " + alpha.charAt(0));
-		System.out.println("Alpha last char: " + alpha.charAt(alpha.length() - 1));
 		
-		
-		for (int i = 0; i <= alpha.length() - 1; i++) {
-			//alternate: i < alpha.length();
-			
-			System.out.println(alpha.charAt(i));
-		}
-		
-		// delete the * / to activate 
-		// */ //prints all of alpha per character, as well as first/last characters of alpha
 		
 		for (int i = 0; i<= vanillaText.length() - 1; i++) {
 			
@@ -36,11 +23,7 @@ public class CaesarCipher {
 			chocolateText = chocolateText + alpha.charAt(Math.abs((alpha.indexOf(vanillaText.charAt(i)) + key) % alpha.length()));
 		}
 		
-		/**
-		 * Each car that I need from vanillaText I find the index in alpha
-		 * for example, reed A to look up index for A, get 0
-		 * Add key to index and write to chocolateText
-		 */
+		
 		
 		
 		return chocolateText;
