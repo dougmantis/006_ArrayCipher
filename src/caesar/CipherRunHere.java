@@ -4,6 +4,8 @@ import javax.swing.JOptionPane;
 
 public class CipherRunHere {
 
+	
+	
 	public static void main(String[] args) {
 		
 		String vanillaText;

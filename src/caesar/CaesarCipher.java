@@ -2,8 +2,12 @@ package caesar;
 
 public class CaesarCipher {
 
-	private String alpha = "abcdefghijklmnopqrstuvwxyz";
 	
+	
+	private String alpha = "abCDefGHijKLmnOPqrSTuvWXyzABcdEFghIJklMNopQRstUVwxYZ ";
+	
+	// "aBcDeFgHiJkLmNoPqRsTuVwXyZAbCdEfGhIjKlMnOpQrStUvWxYz "
+	// "abCDefGHijKLmnOPqrSTuvWXyzABcdEFghIJklMNopQRstUVwxYZ "
 	
 	
 	public String encode(String vanillaText, int key) {
