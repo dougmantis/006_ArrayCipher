@@ -28,7 +28,7 @@ public class CaesarCipher {
 		for (int i = 0; i<= vanillaText.length() - 1; i++) {
 			
 			System.out.println(alpha.indexOf(vanillaText.charAt(i)));
-			chocolateText = chocolateText + alpha.charAt(alpha.indexOf(vanillaText.charAt(i) + key));
+			chocolateText = chocolateText + alpha.charAt((alpha.indexOf(vanillaText.charAt(i)) + key) % alpha.length());
 		}
 		
 		/**
