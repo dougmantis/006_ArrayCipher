@@ -18,7 +18,7 @@ public class CaesarCipher {
 		int updatingKey = key;
 		
 		while (updatingKey < 0) {
-			updatingKey = updatingKey + alpha.length(); //TODO: check if works
+			updatingKey = updatingKey + alpha.length(); 
 		}
 		
 		for (int i = 0; i<= vanillaText.length() - 1; i++) {
@@ -36,6 +36,10 @@ public class CaesarCipher {
 						updatingKey = updatingKey - i;
 					} else {
 						updatingKey = updatingKey + i;
+						
+						while (updatingKey < 0) {
+							updatingKey = updatingKey + alpha.length(); 
+						}
 					}
 					
 				}
