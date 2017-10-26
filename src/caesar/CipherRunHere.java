@@ -26,9 +26,10 @@ public class CipherRunHere {
 		} while (true); //proud of this
 		
 		
-		chocolateText = activeCipher.encode(vanillaText, key);
+		chocolateText = activeCipher.encode(vanillaText, key, false);
 		
 		JOptionPane.showMessageDialog(null, "Encoded message: " + chocolateText);
+		System.out.println(chocolateText);
 	}
 
 }
