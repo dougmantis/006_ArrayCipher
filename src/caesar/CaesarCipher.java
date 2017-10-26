@@ -31,7 +31,7 @@ public class CaesarCipher {
 				
 				
 				if (keyLiveUpdate == true) {
-					System.out.println("KeyUpdate: " + i);
+					//System.out.println("KeyUpdate: " + i);
 					if (key < 0) {
 						updatingKey = updatingKey - i;
 					} else {
@@ -41,17 +41,11 @@ public class CaesarCipher {
 							updatingKey = updatingKey + alpha.length(); 
 						}
 					}
-					
 				}
-				
-				
 			}
-			
 		}
-	
-
+		
 		return chocolateText;
 		
 	}
-
 }
