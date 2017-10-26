@@ -1,0 +1,20 @@
+Grade Checkpoint 1: encoding
+	1: JOP
+	2: .jar
+	3: Ask for encode/decode/crack, branch apropriately
+	4: Ask for plain text message
+	5: Ask for key
+	6: Display encoded message
+	7: Loop - "Do you want to encode/decode another message? (Y/N)"
+	8: Go again or graceful exit
+
+Grade Checkpoint 2: decoding
+
+
+
+
+Grade Checkpoint 3: cracking
+
+
+
+

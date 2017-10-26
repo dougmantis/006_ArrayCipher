@@ -54,6 +54,8 @@ public class CipherRunHere {
 				
 			JOptionPane.showMessageDialog(null, "Encoded message: " + chocolateText);
 			System.out.println(chocolateText);
+		} else if (selection.equals("Cracker")) {
+			JOptionPane.showMessageDialog(null, "This bit doesn't work yet.");
 		}
 	}
 }
